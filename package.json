@@ -1,0 +1,27 @@
+{
+  "name": "listings-report",
+  "version": "1.0.0",
+  "description": "simple car listings report from csv file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Bogdan Vlad",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.15.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}

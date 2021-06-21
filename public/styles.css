@@ -1,0 +1,27 @@
+.two-col p {
+  display: flex;
+  width: 300px;
+  align-items: center;
+}
+
+.two-col span {
+  flex-basis: 50%;
+}
+
+.six-col p {
+  display: flex;
+  width: 600px;
+  align-items: center;
+}
+
+.six-col span {
+  flex-basis: 16.66%;
+}
+
+p {
+  height: 40px;
+}
+
+p:nth-child(even) {
+  background-color: #dddddd;
+}
